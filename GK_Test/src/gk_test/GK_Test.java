@@ -6,13 +6,13 @@
 package gk_test;
 import java.awt.*;
 import java.awt.event.*;
-class tech3 extends Frame implements ItemListener{
+class gk extends Frame implements ItemListener{
     Label l1,l2,l3,l4;
     CheckboxGroup cg1,cg2,cg3;
     Checkbox c1,c2,c3,c4,c5,c6;
     int count=0;
     
-    tech3() {
+    gk() {
         
         setLayout(new FlowLayout());
         l1=new Label("who is pm?");
@@ -71,7 +71,7 @@ class tech3 extends Frame implements ItemListener{
 public class GK_Test {
 
     public static void main(String[] args) {
-       tech3 obj=new tech3();
+       gk obj=new gk();
     }
     
 }
